@@ -31,13 +31,29 @@ Nesting elements
 HTML Headlines
 •	HTML provides six levels of headlines <h1> to <h6> with <h1> being the largest and <h6> being the smallest.
 
-HTML Paragraphs
-•	In HTML paragraphs are represented using <p> tag.
 
-Lists
-A lot of the web's content is lists and HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:
-1.	Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <ul> element.
-2.	Ordered lists are for lists where the order of the items does matter, such as a recipe. These are wrapped in an <ol> element.
-Each item inside the lists is put inside an <li> (list item) element.
-Links
-Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <a> — "a" being the short form for "anchor". 
+Working with Graphics and Images
+Images
+
+We use the img attribute when dealing with Images in HTML, as we know that the web will be very dull without images. 
+There are four attributes that need to be included for every image:
+1. The source attribute (SRC), which instructs the browser which image file to load, comes first. 
+2. The image's text description is provided via the alt attribute (ALT). 
+3. The width and height properties are the last ones that control the image's size. All four of these qualities should therefore be present in every image.
+
+Images are one of the most common types of media used in web design.
+To display an image on a webpage, you use the <img> tag with the src attribute to specify the URL or file path of the image.
+Example: <img src="image.jpg" alt="Description of image">
+
+Audio (audio tag):
+
+HTML5 introduced the <audio> tag for embedding audio content directly into webpages.
+. You can specify the source of the audio file using the src attribute.
+. Additional attributes like controls, autoplay, loop, and preload control the playback behavior of the audio.
+. Example: <audio src="audio.mp3" controls></audio>
+
+Video (video tag):
+
+. Similar to audio, HTML5 provides the <video> tag for embedding video content.
+. You can specify multiple video sources using the <source> tag nested inside the <video> tag. This allows the browser to choose the best-supported format.
+. Attributes like controls, autoplay, loop, preload, width, and height can be used to control the video's appearance and behavior.
