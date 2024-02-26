@@ -32,7 +32,7 @@ HTML Headlines
 •	HTML provides six levels of headlines <h1> to <h6> with <h1> being the largest and <h6> being the smallest.
 
 
-Working with Graphics and Images
+Unit 5: Working with Graphics and Images
 Images
 
 We use the img attribute when dealing with Images in HTML, as we know that the web will be very dull without images. 
@@ -45,15 +45,55 @@ Images are one of the most common types of media used in web design.
 To display an image on a webpage, you use the <img> tag with the src attribute to specify the URL or file path of the image.
 Example: <img src="image.jpg" alt="Description of image">
 
-Audio (audio tag):
+Unit 6: HTML working with Media
+Working with media in HTML involves incorporating various types of multimedia content, such as images, audios, videos and other interactive elements into webpages.
+Here's a breakdown of how media can be integrated into HTML:
 
-HTML5 introduced the <audio> tag for embedding audio content directly into webpages.
+Audio:
+
+HTML introduced the <audio> tag for embedding audio content directly into webpages.
 . You can specify the source of the audio file using the src attribute.
 . Additional attributes like controls, autoplay, loop, and preload control the playback behavior of the audio.
 . Example: <audio src="audio.mp3" controls></audio>
 
-Video (video tag):
+Video:
 
 . Similar to audio, HTML5 provides the <video> tag for embedding video content.
 . You can specify multiple video sources using the <source> tag nested inside the <video> tag. This allows the browser to choose the best-supported format.
 . Attributes like controls, autoplay, loop, preload, width, and height can be used to control the video's appearance and behavior.
+
+Working with Captions and Subtitles:
+Although adding audio and video to a website is incredibly fantastic, not everyone can hear or understand it. Some people may have intermittent hearing loss or have trouble understanding content because of a variety of different conditions while others may be deaf. It's not always convenient for individuals who are able to hear to listen. 
+In that way, it's important to add captions and subtitles to audio or video content in HTML.
+
+1. Use the <track> element inside <audio> or <video> tags.
+2. Specify the source of the caption or subtitle file using the "src" attribute.
+3. Use the "kind" attribute to define the type of text track. e.g captions / subtitles.
+4. Include 'src lang' to specify the language and 'label' for user friendly description.
+5. Caption and subtitle files are typically in web format
+6. Ensure accuracy, synchronization, and readability for accessibility.
+7. Test across browsers and deuces for compability and accessibility.
+
+Embedding media via Iframes:
+Refers to taking content from one site and placing it within the middle of another's site page. 
+HTML provides other tags and methods for embedding media such as <iframe> for embedding external web content, <embed> for embedding plugins like Flash, and <object> for embedding multimedia objects.
+Example:
+<iframe src= "https: //www.youtube.com/embed/VIDEO_ID" width="560" height="315" frameborder="0" allowfullscreen>
+</iframe>
+
+Unit 7: HTML Content Identification
+Involves uniquely identifying elements in HTML.
+It is done using 'id' attribute for individual identifying and 'class' for grouping.
+
+HTML Language support:
+Supports multiple languages in content using 'lang' attribute.
+Helps indicating the language used in the content for accessibility and search engine optimization.
+
+HTML Generic elements:
+Generic elements like div and span are used for content structuring in HTML.
+They have no inherent meaning and are styled or scripted as needed. 
+Div: It is used for division or sectioning a document.
+Span: Used for applying styles to inline elements or groupingn inline elemnets for scripting purposes.
+
+Unit 8: HTML Integration
+
