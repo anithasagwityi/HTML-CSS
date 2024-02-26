@@ -57,10 +57,15 @@ HTML introduced the <audio> tag for embedding audio content directly into webpag
 . Example: <audio src="audio.mp3" controls></audio>
 
 Video:
-
-. Similar to audio, HTML5 provides the <video> tag for embedding video content.
-. You can specify multiple video sources using the <source> tag nested inside the <video> tag. This allows the browser to choose the best-supported format.
-. Attributes like controls, autoplay, loop, preload, width, and height can be used to control the video's appearance and behavior.
+<ul>
+  <li> Similar to audio, HTML5 provides the <video> tag for embedding video content.</li>
+</ul>
+<ul>
+  <li>You can specify multiple video sources using the <source> tag nested inside the <video> tag. This allows the browser to choose the best-supported format.</li>
+</ul>
+<ul>
+  <li>Attributes like 'controls', 'autoplay', 'loop', 'preload', 'width' and 'height' can be used to control the video's appearance and behaviour.</li>
+</ul>
 
 Working with Captions and Subtitles:
 Although adding audio and video to a website is incredibly fantastic, not everyone can hear or understand it. Some people may have intermittent hearing loss or have trouble understanding content because of a variety of different conditions while others may be deaf. It's not always convenient for individuals who are able to hear to listen. 
