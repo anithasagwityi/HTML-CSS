@@ -1,7 +1,7 @@
 # HTML-CSS
 Anitha
 
-WHAT IS HTML?
+#WHAT IS HTML?
 
 The coding that organizes a web page's content is called HTML (HyperText Markup Language). Content could be organized, for instance, using pictures and data tables, a series of paragraphs, or a list of bulleted points.
 HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. 
@@ -11,7 +11,7 @@ The main parts of our element are as follows:
 3.	The content: This is the content of the element, which in this case, is just text.
 4.	The element: The opening tag, the closing tag, and the content together comprise the element.
 
-Nesting elements
+#Nesting elements
 
 •	You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <strong> element, which means that the word is to be strongly emphasized:
 •	HTMLCopy to Clipboard
@@ -28,12 +28,12 @@ Nesting elements
 •	<title></title> — the <title> element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.
 •	<body></body> — the <body> element. This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.
 
-HTML Headlines
-•	HTML provides six levels of headlines <h1> to <h6> with <h1> being the largest and <h6> being the smallest.
+# HTML Headlines
+•	HTML provides six levels of headlines '<h1>' to '<h6>' with '<h1>' being the largest and '<h6>' being the smallest.
 
 
-Unit 5: Working with Graphics and Images
-Images
+# Unit 5: Working with Graphics and Images
+## Images
 
 We use the img attribute when dealing with Images in HTML, as we know that the web will be very dull without images. 
 There are four attributes that need to be included for every image:
@@ -45,18 +45,18 @@ Images are one of the most common types of media used in web design.
 To display an image on a webpage, you use the <img> tag with the src attribute to specify the URL or file path of the image.
 Example: <img src="image.jpg" alt="Description of image">
 
-Unit 6: HTML working with Media
+# Unit 6: HTML working with Media
 Working with media in HTML involves incorporating various types of multimedia content, such as images, audios, videos and other interactive elements into webpages.
 Here's a breakdown of how media can be integrated into HTML:
 
-Audio:
+## Audio:
 
 HTML introduced the <audio> tag for embedding audio content directly into webpages.
 . You can specify the source of the audio file using the src attribute.
 . Additional attributes like controls, autoplay, loop, and preload control the playback behavior of the audio.
 . Example: <audio src="audio.mp3" controls></audio>
 
-Video:
+## Video:
 <ul>
   <li> Similar to audio, HTML5 provides the <video> tag for embedding video content.</li>
 </ul>
@@ -79,14 +79,14 @@ In that way, it's important to add captions and subtitles to audio or video cont
 6. Ensure accuracy, synchronization, and readability for accessibility.
 7. Test across browsers and deuces for compability and accessibility.
 
-Embedding media via Iframes:
+## Embedding media via Iframes:
 Refers to taking content from one site and placing it within the middle of another's site page. 
 HTML provides other tags and methods for embedding media such as <iframe> for embedding external web content, <embed> for embedding plugins like Flash, and <object> for embedding multimedia objects.
 Example:
 <iframe src= "https: //www.youtube.com/embed/VIDEO_ID" width="560" height="315" frameborder="0" allowfullscreen>
 </iframe>
 
-Unit 7: HTML Content Identification
+# Unit 7: HTML Content Identification
 Involves uniquely identifying elements in HTML.
 It is done using 'id' attribute for individual identifying and 'class' for grouping.
 
@@ -100,5 +100,5 @@ They have no inherent meaning and are styled or scripted as needed.
 Div: It is used for division or sectioning a document.
 Span: Used for applying styles to inline elements or groupingn inline elemnets for scripting purposes.
 
-Unit 8: HTML Integration
+# Unit 8: HTML Integration
 
