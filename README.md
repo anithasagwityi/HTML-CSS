@@ -1,7 +1,7 @@
 # HTML-CSS
 Anitha
 
-#WHAT IS HTML?
+# WHAT IS HTML?
 
 The coding that organizes a web page's content is called HTML (HyperText Markup Language). Content could be organized, for instance, using pictures and data tables, a series of paragraphs, or a list of bulleted points.
 HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. 
@@ -29,7 +29,7 @@ The main parts of our element are as follows:
 •	<body></body> — the <body> element. This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.
 
 # HTML Headlines
-•	HTML provides six levels of headlines '<h1>' to '<h6>' with '<h1>' being the largest and '<h6>' being the smallest.
+•	HTML provides six levels of headlines h1 to h6 with h1 being the largest and h6 being the smallest.
 
 
 # Unit 5: Working with Graphics and Images
@@ -90,11 +90,11 @@ Example:
 Involves uniquely identifying elements in HTML.
 It is done using 'id' attribute for individual identifying and 'class' for grouping.
 
-HTML Language support:
+## HTML Language support:
 Supports multiple languages in content using 'lang' attribute.
 Helps indicating the language used in the content for accessibility and search engine optimization.
 
-HTML Generic elements:
+## HTML Generic elements:
 Generic elements like div and span are used for content structuring in HTML.
 They have no inherent meaning and are styled or scripted as needed. 
 Div: It is used for division or sectioning a document.
