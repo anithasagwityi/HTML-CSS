@@ -101,4 +101,11 @@ Div: It is used for division or sectioning a document.
 Span: Used for applying styles to inline elements or groupingn inline elemnets for scripting purposes.
 
 # Unit 8: HTML Integration
+## HTML Page
+HTML plays a major role explaining what these things are, buyt it's not just limited to that. HTML files are a vital part of the web. 
+When you want to visit a website, you can open a browser or web view vand enter a URL. You can either type it in the address bar, click on aa search result link, or even open an app that triggers it. 
+Regardless, a URL is involved. The web server responds by sending back the specific HTML file located at that address.
+
+## Document Head
+Inside the head of a webpage, you put the important information that the browser needs to know about the website.
 
